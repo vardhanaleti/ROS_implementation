@@ -25,7 +25,7 @@ def get_resource():
 	
 	resource = sys.argv[1]
 	if len(resource) < 3:
-		resource_name = "/dev/video" + resource   #promting to use the webcam
+		resource_name = "/dev/video" + resource   #prompting to use the webcam
 		resource = int(resource)
 	else:
 		resource_name = resource
